@@ -1,0 +1,189 @@
+/** @format */
+
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(225, 100%, 94%);
+	font-family: Red, 'Hat', sans-serif;
+}
+
+.section-background {
+	background-image: url(./images/pattern-background-desktop.svg);
+	background-size: auto;
+	background-repeat: repeat-x;
+	height: 98vh;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(13%);
+}
+
+.card-container {
+	width: 28rem;
+	height: 45rem;
+	background-color: rgba(255, 255, 255, 0.959);
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 0px 5px 14px #1111013b;
+}
+
+@media screen and (max-width: 600px) {
+	.card-container {
+		width: 21rem;
+		height: 34rem;
+	}
+}
+
+.img-box img {
+	width: 450px;
+	height: 220px;
+}
+
+@media screen and (max-width: 600px) {
+	.img-box img {
+		width: 337px;
+		height: 141px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+}
+
+p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 300;
+}
+
+.para-width {
+	width: 20rem;
+	margin: auto;
+}
+
+h2 {
+	margin-top: 30px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: 900;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+	h2 {
+		margin-top: 6px;
+		line-height: 55px;
+		font-size: 22px;
+	}
+}
+
+.card-price-box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	margin-left: 60px;
+	width: 20rem;
+	padding: 15px 16px;
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+	.card-price-box {
+		margin: 14px;
+		margin-left: 14px;
+		width: 19rem;
+		padding: 12px 16px;
+	}
+}
+
+.btn {
+	width: 20rem;
+	color: #fff;
+	background-color: hsl(245, 75%, 52%);
+	padding: 15px 15px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	transform: translateX(60px);
+	box-shadow: 2px 6px 16px 0px #0a5fdfbf;
+}
+
+@media screen and (max-width: 600px) {
+	.btn {
+    width: 18rem;
+    padding: 15px 0px;
+    margin-top: 12px;
+    font-size: 13px;
+    transform: translateX(26px);
+	}
+}
+
+.btn:hover {
+	background-color: rgb(31, 95, 245);
+}
+
+.cancel-order {
+	color: rgb(102, 101, 101);
+	padding: 15px 15px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	transform: translateX(150px);
+	border: none;
+	outline: none;
+	background: none;
+}
+
+@media screen and (max-width: 600px) {
+	.cancel-order {
+		margin-top: 10px;
+		font-size: 14px;
+		transform: translateX(110px);
+	}
+}
+
+.cancel-order:hover {
+	color: rgba(20, 20, 20, 0.938);
+}
+span {
+	color: rgb(112, 112, 112);
+	font-size: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+		Arial, sans-serif;
+}
+h3 {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: sans-serif;
+	line-height: 25px;
+	margin-right: 22px;
+}
+a {
+	color: hsl(228, 93%, 50%);
+	font-size: 14px;
+}
+a:hover {
+	color: rgb(64, 128, 247);
+}
+.attribution {
+	font-size: 16px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

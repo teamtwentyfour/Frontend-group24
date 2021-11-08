@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Pale blue: hsl(225, 100%, 94%)
+- Pale blue: hsl(225, 100%, 94%);
 - Bright blue: hsl(245, 75%, 52%)
 
 ### Neutral
